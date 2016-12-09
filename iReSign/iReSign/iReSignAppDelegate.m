@@ -21,6 +21,9 @@ static NSString *kProductsDirName                   = @"Products";
 static NSString *kInfoPlistFilename                 = @"Info.plist";
 static NSString *kiTunesMetadataFileName            = @"iTunesMetadata";
 
+static NSString *kPluginFileName                    =
+    @"PlugIns";
+
 @implementation iReSignAppDelegate
 
 @synthesize window,workingPath;
@@ -232,12 +235,16 @@ static NSString *kiTunesMetadataFileName            = @"iTunesMetadata";
 - (BOOL)doAppBundleIDChange:(NSString *)newBundleID {
     NSArray *dirContents = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:[workingPath stringByAppendingPathComponent:kPayloadDirName] error:nil];
     NSString *infoPlistPath = nil;
+    NSString *pluginPath = nil;
     
     for (NSString *file in dirContents) {
         if ([[[file pathExtension] lowercaseString] isEqualToString:@"app"]) {
             infoPlistPath = [[[workingPath stringByAppendingPathComponent:kPayloadDirName]
                               stringByAppendingPathComponent:file]
                              stringByAppendingPathComponent:kInfoPlistFilename];
+            pluginPath = [[[workingPath stringByAppendingPathComponent:kPayloadDirName]
+                              stringByAppendingPathComponent:file]
+                             stringByAppendingPathComponent:kPluginFileName];
             break;
         }
     }
