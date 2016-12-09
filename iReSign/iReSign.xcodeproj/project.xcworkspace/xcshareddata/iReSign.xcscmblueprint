@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A3B4A013DC251317798FAEB8250D69E5734EE6E9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A3B4A013DC251317798FAEB8250D69E5734EE6E9" : 9223372036854775807,
+    "43280492CE74ADAC7B7AD1393F0FB52CA2FE257C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "55C76783-2CEC-4A8B-BA32-DF9DAB6B90C5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A3B4A013DC251317798FAEB8250D69E5734EE6E9" : "iReSign-master\/",
+    "43280492CE74ADAC7B7AD1393F0FB52CA2FE257C" : "iReSign"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iReSign",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iReSign\/iReSign.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:maciekish\/iReSign.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "43280492CE74ADAC7B7AD1393F0FB52CA2FE257C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:vicxxc\/iReSign_Delete_Plugin.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3B4A013DC251317798FAEB8250D69E5734EE6E9"
+    }
+  ]
+}
